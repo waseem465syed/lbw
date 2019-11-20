@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.td.lbw.MainActivity">
+
+
+
+    <item
+        android:id="@+id/openTakeVideoFragment"
+        android:orderInCategory="200"
+        android:title="@string/take_video"
+        android:icon="@mipmap/pvideo"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/openWatchVideoFragment"
+        android:orderInCategory="300"
+        android:icon="@mipmap/play"
+        android:title="@string/watch_video"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
